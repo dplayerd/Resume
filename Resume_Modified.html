@@ -1,0 +1,651 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>鄭惟中</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Lato:400,700
+);
+		body {
+			background: #fff;
+			font-family: Lato, sans-serif;
+			margin: 0 0 80px;
+		}
+
+		a {
+			color: #2ecc71;
+		}
+
+		a:focus,
+		a:hover {
+			color: #f1c40f;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: 1.5;
+			margin: 0;
+		}
+
+		p+p {
+			margin-top: 10px;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4 {
+			margin-top: 0
+		}
+
+		section {
+			margin-top: 30px;
+		}
+
+		li {
+			line-height: 1.8;
+			list-style: none;
+		}
+
+		li:before {
+			content: "\f052";
+			float: left;
+			font: 13px Octicons;
+			margin-top: 6px;
+			margin-left: -20px;
+			opacity: .1;
+			position: absolute;
+		}
+
+		blockquote {
+			border-left: 5px solid #e7e9ec;
+			font-size: 14px;
+		}
+
+		em {
+			color: #95a5a6;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		h4 span:first-child {
+			color: #000;
+			font-weight: bold;
+		}
+
+		.container {
+			max-width: 750px;
+			padding: 0 30px;
+		}
+
+		.col-sm-6 {
+			margin-bottom: 10px;
+		}
+
+		.col-sm-12 h4 {
+			margin-top: 12px;
+		}
+
+		.col-sm-12+.col-sm-12 {
+			margin-top: 30px;
+		}
+
+		#header {
+			background: #f4f6f6;
+			padding: 50px 0;
+			margin-bottom: 30px;
+		}
+
+		#header h2 {
+			color: #95a5a6;
+			font-size: 24px;
+		}
+
+		#content h3 {
+			color: #f1c40f;
+			font-size: 26px;
+			margin-top: -4px;
+		}
+
+		#content aside {
+			text-align: right;
+			padding-right: 30px;
+		}
+
+		#profiles .network {
+			text-transform: capitalize;
+		}
+
+		#work .position,
+		#volunteer .position {
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+
+		#education .area {
+			font-weight: bold;
+		}
+
+		#education .area:before {
+			content: "\f0d7";
+			font: 16px Octicons;
+			margin-right: 6px;
+		}
+
+		#education .studyType {
+			margin-left: 25px;
+		}
+
+		#awards .summary,
+		#publications .summary {
+			margin-top: 8px;
+		}
+
+		#publications .website a:before {
+			content: attr(href);
+		}
+
+		@media (min-width: 480px) {
+			.strike-through {
+				border-top: 1px solid #f4f6f6;
+				height: 20px;
+				margin-top: 12px;
+				margin-bottom: -2px;
+				position: relative;
+			}
+			.strike-through span,
+			.strike-through a {
+				background: #fff;
+				position: absolute;
+			}
+			.strike-through span:first-child {
+				padding-right: 20px;
+				margin-top: -12px;
+			}
+			.strike-through span+span {
+				font-size: 14px;
+				margin-top: -10px;
+				padding-left: 20px;
+				right: 0;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.col-sm-6:last-child {
+				margin-bottom: 0px;
+			}
+			#content aside {
+				margin-bottom: 20px;
+				padding-right: 0;
+				text-align: left;
+			}
+			#publications .website a:before {
+				content: "View publication";
+			}
+		}
+
+		@media (max-width: 480px) {
+			h1 {
+				font-size: 26px;
+			}
+			.date {
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+			.strike-through span:first-child {
+				margin-bottom: 7px;
+			}
+			.strike-through span {
+				display: block;
+			}
+			#header {
+				margin-bottom: 10px;
+				padding: 40px 0;
+			}
+			#actions {
+				display: none;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						鄭惟中
+					</h1>
+					<h2>
+						軟體架構師
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+		<section id="contact" class="row">
+			<aside class="col-sm-3">
+				<h3>Contact</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<strong>Email</strong>
+						<div class="email">dplayerd@gmail.com</div>
+					</div>
+					<div class="col-sm-6">
+						<strong>Phone</strong>
+						<div class="phone">0929-793464</div>
+					</div>
+					<div class="col-sm-6">
+						<strong>Website</strong>
+						<div class="website">
+							<a href="https://dotblogs.com.tw/dplayerd">https://dotblogs.com.tw/dplayerd</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="row">
+			<aside class="col-sm-3">
+				<h3>About</h3>
+			</aside>
+			<div class="col-sm-9">
+				<p>喜歡 ASP.NET ，並利用時間學習物件導向、架構設計、各式程式技巧。程式相關總工作經驗大約十年。在最近期的工作中，轉職為設計者，負責撰設計稿給同事實作程式。</p>
+				<p>從第一份工作開始認真寫 JS ，成為能撰寫模組的人。整合過數個 JS 模組，並提供適當 API 給同事呼叫，也撰寫使用及範例文件。</p>
+				<p>除基本三層式架構，也會依不同需求設計適當模式；曾透過架構底層，大幅減少同事工作量，並降低商業模組維護的進入門檻。</p>
+				<p>時常進行教育訓練，包含對新進開發人員的基礎訓練或是測試及規範講解等進階訓練。也負責過公司規範制訂。</p>
+			</div>
+		</section>
+		<section id="profiles" class="row">
+			<aside class="col-sm-3">
+				<h3>Profiles</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<strong class="network">
+							FaceBook
+						</strong>
+						<div class="username">
+							<div class="url">
+								<a href="https://www.facebook.com/dplayerd">Moudou Cheng</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="work" class="row">
+			<aside class="col-sm-3">
+				<h3>Work</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>聯合信息科技有限公司</span>
+							<span class="date">
+								2011-07-01 — 2018-05-31
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="http://www.bsu-global.com/">http://www.bsu-global.com/</a>
+						</div>
+						<div class="position">
+							系統架構師
+						</div>
+						<div class="summary">
+							<p>倉儲相關系統，主要職務包含但不限於以下：</p>
+							<p>撰寫前後端程式、需求訪談、系統分析、系統設計、為客戶進行系統上線導入及教育訓練、新進人員教育訓練、系統維護及應急處理、出文件給客戶、接客訴電話、瞭解外部系統及設計資料交換</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">建立 Web 底層架構，大幅減少同事的開發時間。訂定程式規範及協助基礎建設。</li>
+							<li class="bullet">WMS 倉庫管理系統</li>
+							<li class="bullet">WCS 倉庫控制系統</li>
+							<li class="bullet">資料交換系統</li>
+							<li class="bullet">Web Client Framework</li>
+							<li class="bullet">Web Server Framework</li>
+							<li class="bullet">系統分析與設計</li>
+							<li class="bullet">工作經歷詳見 https://dotblogs.com.tw/dplayerd/2018/05/09/125920</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>國立中山大學</span>
+							<span class="date">
+								2010-04-01 — 2011-02-27
+							</span>
+						</h4>
+						<!-- <div class="website pull-right">
+					<a href="已停止服務">已停止服務</a>
+				</div> -->
+						<div class="position">
+							專案助理 - NeGoGo 團購網站
+						</div>
+						<div class="summary">
+							<p>開發面向一般用戶的團購網路，並協助老師進行行為研究。</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">NeGoGo 團購網站開發</li>
+							<li class="bullet">新開發者教育訓練</li>
+							<li class="bullet">協助活動舉辦的系統問題</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>原傳資訊</span>
+							<span class="date">
+								2009-11-01 — 2010-01-31
+							</span>
+						</h4>
+						<!-- <div class="website pull-right">
+					<a href="已停止服務">已停止服務</a>
+				</div> -->
+						<div class="position">
+							程式設計師
+						</div>
+						<div class="summary">
+							<p>接手前人的 ASP.NET 網站，維護至可符合專案需求。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="volunteer" class="row">
+			<aside class="col-sm-3">
+				<h3>Volunteer</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>K.Net</span>
+							<span class="date">
+								2015-03-01 — 2018-05-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="https://www.facebook.com/k.net.io/">https://www.facebook.com/k.net.io/</a>
+						</div>
+						<div class="position">
+							雜工
+						</div>
+						<div class="summary">
+							<p>於本社團主要擔任活動幫手。曾擔任過三場講師 / 分享者。</p>
+						</div>
+						<h4>Highlights</h4>
+						<ul class="highlights">
+							<li class="bullet">Webduino 實作 (2017/8/12)</li>
+							<li class="bullet">版本控制觀念 (2016/9/3)</li>
+							<li class="bullet">讓 ASP.NET 在 Raspberry PI 上飛 (2015/12/19)</li>
+						</ul>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>創客閣樓</span>
+							<span class="date">
+								2015-05-01 — 2016-07-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="https://www.facebook.com/groups/MakersAttic">https://www.facebook.com/groups/MakersAttic</a>
+						</div>
+						<div class="position">
+							一般參加者及活動幫手
+						</div>
+						<div class="summary">
+							<p></p>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>中台灣碼農大食團</span>
+							<span class="date">
+								2016-12-01 — 2018-05-01
+							</span>
+						</h4>
+						<div class="website pull-right">
+							<a href="https://www.facebook.com/groups/1730492530606904/">https://www.facebook.com/groups/1730492530606904/</a>
+						</div>
+						<div class="position">
+							號召人
+						</div>
+						<div class="summary">
+							<p>舉辦餐會 / 分享會，讓參加者可以彼此分享技能。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="education" class="row">
+			<aside class="col-sm-3">
+				<h3>Education</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="strike-through">
+							<span>國立勤益科技大學</span>
+							<span class="date">
+								2002-09-01 — 2008-07-01
+							</span>
+						</h4>
+						<div class="area">
+							資訊管理系
+						</div>
+						<div class="studyType">
+							學士
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section id="skills" class="row">
+			<aside class="col-sm-3">
+				<h3>Skills</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Office</h4>
+						</div>
+						<ul class="keywords">
+							<li>Word, Excel, PowerPoint, Visio</li>
+							<li>XMind</li>
+							<li>Trello</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Web Server</h4>
+						</div>
+						<ul class="keywords">
+							<li>CORS</li>
+							<li>ASP.NET WebForm</li>
+							<li>TCPIP</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Web Client Developer</h4>
+						</div>
+						<ul class="keywords">
+							<li>HTML - HTML 4</li>
+							<li>HTML - 無障礙網頁</li>
+							<li>HTML - 語義標籤</li>
+							<li>DataFormat - XML</li>
+							<li>DataFormat - JSON</li>
+							<li>DataFormat - 電文</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>JavaScript</h4>
+						</div>
+						<ul class="keywords">
+							<li>jQuery</li>
+							<li>jQueryUI &amp; Module Factory</li>
+							<li>HighChart</li>
+							<li>jqGrid</li>
+							<li>AJAX</li>
+							<li>視需要整合</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>伺服器架設</h4>
+						</div>
+						<ul class="keywords">
+							<li>FilleZilla FTP</li>
+							<li>Visual SVN</li>
+							<li>IIS &amp; 負載平衡</li>
+							<li>SQL Server</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>系統分析與設計</h4>
+						</div>
+						<ul class="keywords">
+							<li>需求訪談及紀錄</li>
+							<li>規格及商業邏輯說明</li>
+							<li>UML</li>
+							<li>ERD / Schema</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>系統架構</h4>
+						</div>
+						<ul class="keywords">
+							<li>MVC</li>
+							<li>WebAPI</li>
+							<li>物件導向 &amp; 設計模式</li>
+							<li>EDI: DB, FILE, TCPIP, Web</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>IoT</h4>
+						</div>
+						<ul class="keywords">
+							<li>Arduino / RaspberryPI</li>
+							<li>Webduino</li>
+							<li>PLC(OMRON)</li>
+							<li>TCPIP / MQTT</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>C#</h4>
+						</div>
+						<ul class="keywords">
+							<li>.Net Framework 4</li>
+							<li>ORM - Telerik</li>
+							<li>ORM - Dapper</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="languages" class="row">
+			<aside class="col-sm-3">
+				<h3>Languages</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>中文</strong>
+						</div>
+						<div class="fluency">
+							母語
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="language">
+							<strong>English</strong>
+						</div>
+						<div class="fluency">
+							普通
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="interests" class="row">
+			<aside class="col-sm-3">
+				<h3>Interests</h3>
+			</aside>
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>IoT</h4>
+						</div>
+						<ul class="keywords">
+							<li>Webduino</li>
+							<li>Respberry PI &amp; Raspbian</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>程式相關</h4>
+						</div>
+						<ul class="keywords">
+							<li>分析設計</li>
+							<li>單元測試</li>
+						</ul>
+					</div>					
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>烹調</h4>
+						</div>
+						<ul class="keywords">
+							<li></li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>動漫</h4>
+						</div>
+						<ul class="keywords">
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+
+</body>
+
+</html>
